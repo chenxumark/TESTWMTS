@@ -27,7 +27,7 @@
 	<ows:Operation name="GetCapabilities">
 		<ows:DCP>
 			<ows:HTTP>
-				<ows:Get xlink:href="http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/1.0.0/WMTSCapabilities.xml">
+				<ows:Get xlink:href="http://172.30.240.80:82/Proxy.ashx?http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/1.0.0/WMTSCapabilities.xml">
 					<ows:Constraint name="GetEncoding">
 						<ows:AllowedValues>
 							<ows:Value>RESTful</ows:Value>
@@ -35,7 +35,7 @@
 					</ows:Constraint>
 				</ows:Get>
                 <!-- add KVP binding in 10.1 -->
-                <ows:Get xlink:href="http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS?">
+                <ows:Get xlink:href="http://172.30.240.80:82/Proxy.ashx?http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS?">
                   <ows:Constraint name="GetEncoding">
                     <ows:AllowedValues>
                       <ows:Value>KVP</ows:Value>
@@ -48,14 +48,14 @@
 	<ows:Operation name="GetTile">
 		<ows:DCP>
 			<ows:HTTP>
-				<ows:Get xlink:href="http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/tile/1.0.0/">
+				<ows:Get xlink:href="http://172.30.240.80:82/Proxy.ashx?http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/tile/1.0.0/">
 					<ows:Constraint name="GetEncoding">
 						<ows:AllowedValues>
 							<ows:Value>RESTful</ows:Value>
 						</ows:AllowedValues>
 					</ows:Constraint>
 				</ows:Get>
-                <ows:Get xlink:href="http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS?">
+                <ows:Get xlink:href="http://172.30.240.80:82/Proxy.ashx?http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS?">
                   <ows:Constraint name="GetEncoding">
                     <ows:AllowedValues>
                       <ows:Value>KVP</ows:Value>
@@ -93,7 +93,7 @@
     </TileMatrixSetLink>
 
         
-    <ResourceURL format="image/jpgpng" resourceType="tile" template="http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/tile/1.0.0/WXYX_2021/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}" />
+    <ResourceURL format="image/jpgpng" resourceType="tile" template="http://172.30.240.80:82/Proxy.ashx?http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/tile/1.0.0/WXYX_2021/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}" />
   </Layer> 
    <!--TileMatrixSet-->
    <TileMatrixSet>
@@ -301,5 +301,5 @@
    </TileMatrixSet>
    
 </Contents>
-<ServiceMetadataURL xlink:href="http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/1.0.0/WMTSCapabilities.xml" /> 
+<ServiceMetadataURL xlink:href="http://172.30.240.80:82/Proxy.ashx?http://gis239044.up.gz/arcgis/rest/services/WXYX_2021/MapServer/WMTS/1.0.0/WMTSCapabilities.xml" /> 
 </Capabilities>
