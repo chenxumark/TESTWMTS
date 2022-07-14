@@ -228,34 +228,6 @@
           
           </TileMatrix>
           
-          <TileMatrix>
-          <ows:Identifier>12</ows:Identifier>
-          
-          <ScaleDenominator>1066.3674601157386</ScaleDenominator>
-          
-          <TopLeftCorner>-5623200.0 1.00021E7</TopLeftCorner>  
-          <TileWidth>256</TileWidth> 
-          <TileHeight>256</TileHeight>
-            
-            <MatrixWidth>75137</MatrixWidth> 
-            <MatrixHeight>128787</MatrixHeight>
-          
-          </TileMatrix>
-          
-          <TileMatrix>
-          <ows:Identifier>13</ows:Identifier>
-          
-          <ScaleDenominator>533.1837300578693</ScaleDenominator>
-          
-          <TopLeftCorner>-5623200.0 1.00021E7</TopLeftCorner>  
-          <TileWidth>256</TileWidth> 
-          <TileHeight>256</TileHeight>
-            
-            <MatrixWidth>150273</MatrixWidth> 
-            <MatrixHeight>257574</MatrixHeight>
-          
-          </TileMatrix>
-          
    </TileMatrixSet>
    
 </Contents>
