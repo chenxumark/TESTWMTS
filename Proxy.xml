@@ -30,7 +30,7 @@
     <ows:Title>WXYX_2021</ows:Title> 
     <ows:Identifier>WXYX_2021</ows:Identifier>
     
-      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG::4490">
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG::0">
 	  
 			<ows:LowerCorner>5000.000000002794 157999.99999999814</ows:LowerCorner>
 			<ows:UpperCorner>120000.00000000373 320000.0000000037</ows:UpperCorner>
@@ -53,7 +53,7 @@
      <ows:Title>TileMatrix using 0.28mm</ows:Title>
      <ows:Abstract>The tile matrix set that has scale values calculated based on the dpi defined by OGC specification (dpi assumes 0.28mm as the physical distance of a pixel).</ows:Abstract> 
      <ows:Identifier>default028mm</ows:Identifier>
-     <ows:SupportedCRS>urn:ogc:def:crs:EPSG::4490</ows:SupportedCRS>
+     <ows:SupportedCRS>urn:ogc:def:crs:EPSG::0</ows:SupportedCRS>
       
           <TileMatrix>
           <ows:Identifier>0</ows:Identifier>
