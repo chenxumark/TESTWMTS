@@ -36,6 +36,11 @@
 			<ows:UpperCorner>120000.00000000373 320000.0000000037</ows:UpperCorner>
 		
       </ows:BoundingBox>  
+      
+      <ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">
+        <ows:LowerCorner>113.3249296374624 1.428646183118419</ows:LowerCorner>
+        <ows:UpperCorner>114.35928122313213 2.8939567307803324</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
     <Style isDefault="true">
       <ows:Title>Default Style</ows:Title>
       <ows:Identifier>default</ows:Identifier>
@@ -53,7 +58,7 @@
      <ows:Title>TileMatrix using 0.28mm</ows:Title>
      <ows:Abstract>The tile matrix set that has scale values calculated based on the dpi defined by OGC specification (dpi assumes 0.28mm as the physical distance of a pixel).</ows:Abstract> 
      <ows:Identifier>default028mm</ows:Identifier>
-     <ows:SupportedCRS>urn:ogc:def:crs:EPSG::4490</ows:SupportedCRS>
+     <ows:SupportedCRS>urn:ogc:def:crs:EPSG::0</ows:SupportedCRS>
       
           <TileMatrix>
           <ows:Identifier>0</ows:Identifier>
