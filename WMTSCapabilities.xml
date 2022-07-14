@@ -10,49 +10,8 @@ version="1.0.0">
 <ows:Title>TdtYn_tdtYnImg100cm2000</ows:Title>
 <ows:ServiceType>OGC WMTS</ows:ServiceType>
 <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
-</ows:ServiceIdentification> <!-- Operations Metadata --> <ows:OperationsMetadata>
-<ows:Operation name="GetCapabilities">
-<ows:DCP>
-<ows:HTTP>
-<ows:Get xlink:href="http://maps.ynmap.cn/arcgis/rest/services/TdtYn/tdtYnImg100cm2000/MapServer/WMTS/1.0.0/WMTSCapabilities.xml">
-<ows:Constraint name="GetEncoding">
-<ows:AllowedValues>
-<ows:Value>RESTful</ows:Value>
-</ows:AllowedValues>
-</ows:Constraint>
-</ows:Get>
-<!-- add KVP binding in 10.1 -->
-<ows:Get xlink:href="http://maps.ynmap.cn/arcgis/rest/services/TdtYn/tdtYnImg100cm2000/MapServer/WMTS?">
-<ows:Constraint name="GetEncoding">
-<ows:AllowedValues>
-<ows:Value>KVP</ows:Value>
-</ows:AllowedValues>
-</ows:Constraint>
-</ows:Get>
-</ows:HTTP>
-</ows:DCP>
-</ows:Operation>
-<ows:Operation name="GetTile">
-<ows:DCP>
-<ows:HTTP>
-<ows:Get xlink:href="http://maps.ynmap.cn/arcgis/rest/services/TdtYn/tdtYnImg100cm2000/MapServer/WMTS/tile/1.0.0/">
-<ows:Constraint name="GetEncoding">
-<ows:AllowedValues>
-<ows:Value>RESTful</ows:Value>
-</ows:AllowedValues>
-</ows:Constraint>
-</ows:Get>
-<ows:Get xlink:href="http://maps.ynmap.cn/arcgis/rest/services/TdtYn/tdtYnImg100cm2000/MapServer/WMTS?">
-<ows:Constraint name="GetEncoding">
-<ows:AllowedValues>
-<ows:Value>KVP</ows:Value>
-</ows:AllowedValues>
-</ows:Constraint>
-</ows:Get>
-</ows:HTTP>
-</ows:DCP>
-</ows:Operation>
-</ows:OperationsMetadata> <Contents>
+</ows:ServiceIdentification>
+ <Contents>
 <!--Layer--> <Layer>
 <ows:Title>TdtYn_tdtYnImg100cm2000</ows:Title> <ows:Identifier>TdtYn_tdtYnImg100cm2000</ows:Identifier>
 <ows:BoundingBox crs="urn:ogc:def:crs:EPSG::4490">
