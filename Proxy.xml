@@ -30,7 +30,7 @@
     <ows:Title>WXYX_2021</ows:Title> 
     <ows:Identifier>WXYX_2021</ows:Identifier>
     
-      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG::0">
+      <ows:BoundingBox crs="urn:ogc:def:crs:EPSG::999990">
 	  
 			<ows:LowerCorner>5000.000000002794 157999.99999999814</ows:LowerCorner>
 			<ows:UpperCorner>120000.00000000373 320000.0000000037</ows:UpperCorner>
